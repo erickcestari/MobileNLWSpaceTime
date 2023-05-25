@@ -38,7 +38,7 @@ export default function App() {
     const { token } = response.data
     await SecureStore.setItemAsync('token', token)
 
-    router.push('/newMemory')
+    router.push('/memories')
   }
   useEffect(() => {
     /*

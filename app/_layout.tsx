@@ -39,7 +39,7 @@ export default function Layout() {
   return(
     <ImageBackground
       source={blurBg}
-      className="relative flex-1 items-center bg-gray-900 px-8 py-10 -z-50"
+      className="relative flex-1 items-center bg-gray-900 px-4 py-10 -z-50"
       imageStyle={{ position: 'absolute', left: '-100%' }}
     >
       <StyledStripes className="absolute left-0" />
